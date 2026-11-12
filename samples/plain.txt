@@ -1,0 +1,4 @@
+Plain text import.
+Second line.
+
+New paragraph <with> symbols.
