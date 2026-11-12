@@ -1,0 +1,40 @@
+{
+  "name": "paperlane",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "db:migrate": "node scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "@tiptap/pm": "^3.0.0",
+    "@tiptap/react": "^3.0.0",
+    "@tiptap/starter-kit": "^3.0.0",
+    "mammoth": "^1.8.0",
+    "marked": "^15.0.0",
+    "next": "^15.5.0",
+    "pg": "^8.13.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sanitize-html": "^2.13.0",
+    "turndown": "^7.2.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/sanitize-html": "^2.13.0",
+    "@types/turndown": "^5.0.5",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}
