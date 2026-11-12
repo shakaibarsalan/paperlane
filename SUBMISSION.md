@@ -14,7 +14,7 @@ There are no passwords. On the sign-in screen pick a demo user, and use **Switch
 | Bob Mirza | bob@paperlane.test | Can edit "Q4 launch plan" |
 | Carol Diaz | carol@paperlane.test | Can view "Q4 launch plan" |
 
-The steps are listed under "Try the sharing flow" in README.md. Sample import files are in `samples/`.
+The steps are listed under "Try the sharing flow" in README.md. Sample import files are in `samples/` inside the source zip.
 
 ## What's in this folder
 
@@ -26,7 +26,7 @@ The steps are listed under "Try the sharing flow" in README.md. Sample import fi
 | `AI_WORKFLOW.md` | AI tools used, where they helped, what I changed or rejected, how I verified |
 | `SUBMISSION.md` | This file |
 | `VIDEO_URL.txt` | Link to the 3–5 minute walkthrough |
-| `samples/` | `.md`, `.txt` and `.docx` files for testing the import |
+| `samples/` (inside the zip) | `.md`, `.txt` and `.docx` files for testing the import |
 
 ## Status
 
