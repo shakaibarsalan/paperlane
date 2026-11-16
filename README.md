@@ -3,6 +3,9 @@
 A lightweight collaborative document editor: create, format, import, share and export documents.
 
 **Live app:** https://paperlane-murex.vercel.app
+
+**Source:** https://github.com/shakaibarsalan/paperlane
+
 **Test accounts:** no passwords. On the sign-in screen pick **Alice Khan**, **Bob Mirza** or **Carol Diaz**, and use **Switch user** (top right) to change accounts.
 
 | User | Email (used for sharing) |
@@ -87,7 +90,7 @@ If you don't want Node installed locally, `scripts/docker-check.sh` runs install
 
 ## Deployment
 
-- **Hosting:** Vercel. Functions are pinned to `bom1` (Mumbai) in `vercel.json`, next to the database.
+- **Hosting:** Vercel. Functions are pinned to `bom1` (Mumbai) in `vercel.json`, next to the database. The Vercel project is connected to this GitHub repo, so every push to `main` deploys to production.
 - **Database:** Postgres 17 on a small Linux server I run. It has its own database and role, and it accepts connections over SSL only. The `DATABASE_URL` uses `sslmode=no-verify` because the server's certificate is self-signed.
 - **Environment variables:** `DATABASE_URL` and `SESSION_SECRET`.
 
